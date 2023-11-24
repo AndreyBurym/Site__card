@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__body">
+            <div class="left__part">
+                <ul class="left__menu__li">
+                    <li class="left__li__first">Home</li>
+                    <li class="left__li__second">Credit</li>
+                </ul>
+            </div>
+            <img src="./завантаження (3)(2).jpg" width="60" alt="" class="photo__logo" />
+            <div class="right__part">
+                <ul class="right__menu__li">
+                    <li class="right__li__first">New card</li>
+                    <li class="right__li__second">Login</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main__block">
+        <div class="block">
+            <div class="block__title">
+                <p class="block__text">Credit card</p>
+                <p class="block__text">Bank Monobank</p>
+            </div>
+            <img src="./Знімок екрана 2023-10-30 о 19.03.40.png" alt="" class="block__photo" />
+            <p class="card__number"></p>
+            <div class="card__container">
+                <p class="card__cv"></p>
+                <p class="card__data"></p>
+            </div>
+            <span class="name_surname"></span>
+        </div>
+        <form class="form" action="">
+            <div class="form__box">
+                <h2 class="Text">Please write your card number</h2>
+                <input type="text" class="input__number-card" maxlength="16" />
+                <h2 class="text__input">Please write your Name</h2>
+                <input type="text" class="input__name" />
+                <h2 class="Text">Please enter the date</h2>
+                <input type="date" class="input__card" />
+                <label class="check__label" for="check">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                        class="about">Alias iste voluptatibus nostrum!</span> Quae non earum, tempore dolores delectus
+                    vitae perspiciatis quaerat nobis doloribus, accusantium reprehenderit, cum modi commodi veniam
+                    possimus.
+                </label>
+                <div class="check">
+                    <input type="checkbox" id="check" class="check__input" />
+                    <span class="check__text">I agree to the terms and conditions</span>
+                </div>
+                <div class="check__modal">
+                    <span class="TEXT">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos provident
+                        quisquam iste hic inventore maxime velit molestias accusamus et culpa reiciendis repudiandae,
+                        quos laborum nam adipisci dolorum aperiam doloribus laboriosam?</span>
+                </div>
+            </div>
+        </form>
+        <button class="generate" id="generateRandom">
+            Generate Random Number
+        </button>
+        <button class="generate" id="generateRandomName">
+            Generate Random Name
+        </button>
+        <div class="modal-container">
+            <div class="modal" id="myModal">
+                <span class="close" id="closeModal">&times;</span>
+                <div class="modal-content">
+                    <h2 class="Welcome">Welcome to Our Bank</h2>
+                    <p class="Window">This is a modal window. Close by clicking the close button or outside the modal.</p>
+                    <button id="modalBtn">Learn More</button>
+                    <div class="hidden-text" id="hiddenText">
+                        <p class="Window">Discover the power of secure banking with our innovative services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
